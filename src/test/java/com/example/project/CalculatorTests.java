@@ -21,6 +21,6 @@ class CalculatorTests {
 	@DisplayName("1 - 1 = 0")
 	void subtractTwoNumbers() {
 		Calculator calculator = new Calculator();
-		assertEquals(1, calculator.subtract(1, 1), "1 - 1 should equal 0");
+		assertEquals(0, calculator.subtract(1, 1), "1 - 1 should equal 0");
 	}
 }
